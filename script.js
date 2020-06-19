@@ -317,8 +317,6 @@ for (var i = 0; i < colrs.length; i = i + 1) {
 
     // activate nav bar
 
-    window.onload = function () {
-
       ul.children[i].onclick = function () {
 
           window.location.hash = '#' + this.textContent;
@@ -332,7 +330,6 @@ for (var i = 0; i < colrs.length; i = i + 1) {
               }, 100);
           }
       };
-    }
 
 // open colors menu
 
