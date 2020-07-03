@@ -136,6 +136,15 @@ $(document).ready(function () {
             }
             sc1.css('background', '#333');
             sc2.css('background', '#333');
+            
+        });
+
+        $(window).on('load', function() {
+            $('.loading > *').fadeOut(2000, function () {
+                $('.loading').fadeOut(500, function () {
+                    $('.loading').remove();
+                });
+            });
         });
 
 // scroll to top button with soft animation
