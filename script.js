@@ -139,7 +139,7 @@ $(document).ready(function () {
             
         });
 
-        $(window).on('load', function() {
+        $(window).load(function() {
             $('.loading > *').fadeOut(2000, function () {
                 $('.loading').fadeOut(500, function () {
                     $('.loading').remove();
