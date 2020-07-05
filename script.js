@@ -139,14 +139,6 @@ $(document).ready(function () {
             
         });
 
-        $(window).load(function() {
-            $('.loading > *').fadeOut(2000, function () {
-                $('.loading').fadeOut(500, function () {
-                    $('.loading').remove();
-                });
-            });
-        });
-
 // scroll to top button with soft animation
 
     window.onload = function() {
